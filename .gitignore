@@ -1,0 +1,23 @@
+# Bí mật và cấu hình riêng (quan trọng nhất)
+.env
+.env.*
+*.pem
+*.key
+
+# Thư viện cài tự động
+node_modules/
+venv/
+.venv/
+__pycache__/
+
+# Kết quả build
+dist/
+build/
+
+# File tạm và log
+*.log
+.DS_Store
+Thumbs.db
+
+# Cấu hình riêng của Claude Code trên máy bạn
+.claude/settings.local.json
